@@ -3,9 +3,13 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: var(--spacing-2xl);
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.hero-container {
+    flex-shrink: 0;
 }
 
 .about-me {
@@ -78,9 +82,9 @@
 }
 
 .photo {
-    width: 302.3px;
-    height: 603.38px;
-    top: -110.71px;
+    width: 302px;
+    height: 603px;
+    top: -110px;
     margin-left: var(--spacing-2xl);
     background: var(--gray-medium);
     z-index: 2;
@@ -107,6 +111,7 @@
     display: flex;
     gap: var(--spacing-lg);
     margin-bottom: 30px;
+    list-style-type: none;
 }
 
 .icons a {

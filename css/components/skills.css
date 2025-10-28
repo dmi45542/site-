@@ -1,17 +1,26 @@
 .section_1 {
-  width: 100%;
-  min-height: 637px;
-  background-color: #FFDA74;
-  border-radius: 2px;
-  margin-top: 70px;
-  padding: 60px 0;
+    width: 100vw;
+    margin: 70px 0 0 0;
+    padding: 60px 0;
+    box-sizing: border-box;
+    min-height: 637px;
+    background-color: #FFDA74;
+    border-radius: 0; /* Убираем скругления для полного растягивания */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .container {
-  display: flex;
-  gap: 60px;
-  align-items: flex-start;
-  margin-left: 100px;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    width: 1200px;
+    margin: 0 auto; /* Авто-отступы по бокам */
+    padding: 0 20px; /* Фиксированные отступы */
+    box-sizing: border-box;
 }
 
 .skills_title {
@@ -59,6 +68,7 @@
     margin-left: 220px;
     border-radius: 2px;
     gap: 10px;
+    list-style-type: none;
 }
 
 .skills span {
@@ -102,4 +112,3 @@
   height: 100%;
   border-radius: 4px;
 }
-
