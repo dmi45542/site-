@@ -1,0 +1,122 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--spacing-2xl);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.about-me {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-base);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: var(--opacity-low);
+    margin-left: auto;
+    margin-top: var(--spacing-2xl);
+    margin-bottom: var(--spacing-lg);
+}
+
+.john-developer {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-normal);
+    margin-bottom: var(--spacing-lg);
+}
+
+.name {
+    color: var(--accent-blue);
+}
+
+.since_2025 {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-relaxed);
+    max-width: 500px;
+    color: var(--text-color);
+}
+
+.container {
+    flex-shrink: 0;
+}
+
+.vector-element {
+    width: 444px;
+    height: 316.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.vector-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: var(--spacing-3xl);
+}
+
+.vector-content {
+    display: grid;
+}
+
+.vector-content img {
+    grid-area: 1/1;
+}
+
+.rectangle {
+    width: 310.15px;
+    height: 290.51px;
+    left: 0px;
+    background: var(--gray-light);
+    border-radius: var(--border-radius-2xl);
+    z-index: 1;
+}
+
+.photo {
+    width: 302.3px;
+    height: 603.38px;
+    top: -110.71px;
+    margin-left: var(--spacing-2xl);
+    background: var(--gray-medium);
+    z-index: 2;
+}
+
+.check-out-my {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.social-section {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xl);
+    margin-top: 100px;
+}
+
+.icons {
+    display: flex;
+    gap: var(--spacing-lg);
+    margin-bottom: 30px;
+}
+
+.icons a {
+    display: inline-block;
+    transition: all 0.3s ease; /* Плавный переход для всех свойств */
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease; /* Плавный переход для фильтра */
+}
+

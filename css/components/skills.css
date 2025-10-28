@@ -1,0 +1,105 @@
+.section_1 {
+  width: 100%;
+  min-height: 637px;
+  background-color: #FFDA74;
+  border-radius: 2px;
+  margin-top: 70px;
+  padding: 60px 0;
+}
+
+.container {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+.skills_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 30%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.my_skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    margin-top: 30px;
+}
+
+.progress_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 14px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 225px;
+    margin-top: 50px;
+    margin-left: 220px;
+    border-radius: 2px;
+    gap: 10px;
+}
+
+.skills span {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.skills-bars {
+  width: 300px;
+  margin-top: 55px;
+}
+
+.skills-bars h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill {
+  margin-bottom: 18px;
+}
+
+.skill p {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.progress {
+  background: #fff;
+  height: 6px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: #000;
+  height: 100%;
+  border-radius: 4px;
+}
+

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* адаптация */
+@import url('base/adaptation.css');
+
+
+/* переменные */
+@import url('base/variables.css');
+@import url('base/reset.css');
+
+/* компоненты сайта */
+@import url('components/header.css');
+@import url('components/hero.css');
+@import url('components/skills.css');
+@import url('components/portfolio.css');
+@import url('components/experience.css');
+@import url('components/contact.css');
+@import url('components/footer.css');
+@import url('components/cards.css');
+
+/* тёмная тема */
+@import url('./themes/dark-theme-overrides.css');
+
+/* адаптивность */
+@import url("adaptations/responsive.css");

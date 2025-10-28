@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: var(--spacing-2xl);
+    position: relative; 
+    min-height: 100vh; 
+    padding-bottom: 270px; 
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+

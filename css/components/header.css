@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.nav-list {
+    display: flex;
+    gap: var(--spacing-lg);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: var(--spacing-2xl);
+    width: 456px;
+    height: 24px;
+}
+
+.nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: var(--font-size-md);
+}
+
+.logo {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-normal);
+}
+
+.contact-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md);
+    width: 100px;
+    height: var(--button-height);
+    font-family: var(--font-family);
+    font-size: var(--font-size-md);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.theme-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: var(--spacing-lg);
+}
+
