@@ -1,5 +1,9 @@
 /* стили для тёмной темы */
 
+.dark-theme .header {
+    background-color: #303030;
+}
+
 .dark-theme .section_1,
 .dark-theme .experience-section {
     background-color: var(--gray-light);
@@ -70,8 +74,22 @@
     background-color: var(--button-bg);
 }
 
-.dark-theme .header .theme-btn {
-    color: var(--text-color)
+.dark-theme button .submit-btn {
+    background-color: var(--button-bg);
+}
+
+.dark-theme .icons-project a{
+    background-color: var(--button-bg);
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dark-theme .git-project-1 {
+    background-color: var(--button-bg);
 }
 
 .dark-theme .icons a {

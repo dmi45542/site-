@@ -4,6 +4,13 @@
     align-items: center;
     height: var(--header-height);
     margin-bottom: var(--spacing-2xl);
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 40px 10px; /* ← отступы слева и справа */
 }
 
 .nav-list {
@@ -12,6 +19,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+        position: fixed;
+        z-index: 9999;
 }
 
 .nav-list li {
@@ -24,6 +33,9 @@
     gap: var(--spacing-2xl);
     width: 456px;
     height: 24px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav a {
@@ -61,5 +73,118 @@
     cursor: pointer;
     font-size: 24px;
     margin-left: var(--spacing-lg);
+    position: fixed;
+    z-index: 9999;  
+    top: 20px;  
+    left: 0;
+    color: rgb(82, 82, 227);
+    font-weight: bold;
+}
+
+/* Стили модального окна */
+.contact-modal {
+    display: none;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: var(--bg-color);
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.contact-info-modal {
+    margin: 20px 0;
+}
+
+.contact-item {
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(93, 89, 89);
+}
+
+.social-links-modal {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    background-color: rgb(54, 107, 213);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.social-link:hover {
+        transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgb(133, 133, 133);
+}
+
+/* Для темной темы */
+.dark-theme .modal-content {
+    background: #1e1e1e;
+    border: 1px solid #333;
+}
+
+@media (max-width: 320px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+    }
+    
+    .nav a {
+        font-size: 14px;
+    }
+    
+    .contact-btn {
+        width: 120px;
+        height: 35px;
+        margin: 0.5rem 0;
+    }
+    
+    .theme-btn {
+        margin-left: 0;
+        margin: 0.5rem 0;
+    }
 }
 

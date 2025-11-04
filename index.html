@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="./css/main.css">
     <title>John - Web Developer</title>
 </head>
@@ -18,7 +18,7 @@
             </ul>
         </nav>
         <div>
-            <button class="submit-btn">contact</button>
+            <button class="contact-btn">contact</button>
         </div>
     </header>
 
@@ -194,6 +194,62 @@
             </div>
         </section>
 
+        <section class="my_projects">
+    <div class="project-title">
+        <p class="projects_title">projects</p>
+        <h1 class="projects_my">My Projects</h1>
+        <p class="project-opisanie">Here are my projects that I have worked on, along with a description of what I used to write the code.</p>
+    </div>
+    
+    <div class="projects-grid">
+        <!-- Карточка 1 -->
+        <div class="project-card">
+            <div class="project-card__image">
+                <img src="./image/project-1.png" alt="Todo App">
+            </div>
+            <div class="project-card__content">
+                <span class="project-card__category">Portfolio website</span>
+                <h3 class="project-card__title">Portfolio</h3>
+                <p class="project-card__description">
+                    Portfolio - developer website using grids and flexes with responsive design
+            </div>
+            <div class="card-icon">
+                <ul class="icons-project">
+                    <li><a href="#"><img src="./image/git.png" alt="github"></a></li>
+              </ul>
+            </div>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div class="project-card">
+            <div class="project-card__image">
+                <img src="./image/project-2.png" alt="Weather App">
+            </div>
+            <div class="project-card__content">
+                <span class="project-card__category">Building card</span>
+                <h3 class="project-card__title">Offer card</h3>
+                <p class="project-card__description">
+                    A proposal card with a clickable button, rounded edges, and correct semantics
+                </p>
+            </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="project-card">
+            <div class="project-card__image">
+                <img src="./image/project-3.png" alt="Portfolio Website">
+            </div>
+            <div class="project-card__content">
+                <span class="project-card__category">Form</span>
+                <h3 class="project-card__title">Form to fill out</h3>
+                <p class="project-card__description">
+                    A fully functional form that can be filled out using text, labels, and proper semantics in the code
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
         <section class="section_portfolio">
             <div class="portfolio-title-2">
                 <p class="contacts-label">contacts</p>
@@ -242,6 +298,34 @@
             </div>
         </section>
     </main>
+
+    <div class="contact-modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Contact Me</h2>
+            
+            <div class="contact-info-modal">
+                <div class="contact-item">
+                    <strong>📍 Location:</strong>
+                    <p>Moscow, Russia</p>
+                </div>
+                <div class="contact-item">
+                    <strong>📧 Email:</strong>
+                    <p>dkovalkov731@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <strong>📱 Phone:</strong>
+                    <p>+7 993 746 56 53</p>
+                </div>
+            </div>
+            
+            <div class="social-links-modal">
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Telegram</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <nav class="footer-nav">
