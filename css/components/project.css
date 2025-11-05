@@ -122,16 +122,15 @@
 
 .icons-project a {
     display: inline-block;
-    transition: all 0.3s ease; /* Плавный переход для всех свойств */
+    transition: all 0.3s ease;
 }
 
 .icons-project img {
     width: 24px;
     height: 24px;
-    transition: filter 0.3s ease; /* Плавный переход для фильтра */
+    transition: filter 0.3s ease; 
 }
 
-/* Мобильные стили для 320px */
 @media (max-width: 320px) {
     .my_projects {
         padding: 40px 15px;
